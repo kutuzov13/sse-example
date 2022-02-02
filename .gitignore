@@ -1,0 +1,79 @@
+# Environments
+.env
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEA
+.idea
+.vscode
+
+# Python
+*.egg
+*.egg-info
+*.pyc
+__pycache__
+.pytest_cache
+build/
+dist/
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Generated
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.zip
+.coverage
+coverage.xml
+
+# Temp files
+tmp/
+temp/
+tmp.*
+temp.*
+
+# celery beat schedule file
+celerybeat-schedule
+
+# pyenv
+.python-version
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# PyInstaller
+*.manifest
+*.spec
